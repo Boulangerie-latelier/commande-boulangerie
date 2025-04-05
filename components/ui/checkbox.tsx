@@ -1,0 +1,1 @@
+export const Checkbox = ({ id, ...props }) => <input id={id} type='checkbox' {...props} className='h-5 w-5' />;

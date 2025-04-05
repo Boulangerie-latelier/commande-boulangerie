@@ -1,0 +1,2 @@
+export const Card = ({ children, ...props }) => <div {...props} className='border rounded shadow'>{children}</div>;
+export const CardContent = ({ children, ...props }) => <div {...props} className='p-4'>{children}</div>;
